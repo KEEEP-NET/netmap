@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { IBM_Plex_Sans_KR } from "next/font/google";
 import "./globals.css";
 
-const inter = IBM_Plex_Sans_KR({ weight: "400" });
+const inter = IBM_Plex_Sans_KR({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "netmap",
